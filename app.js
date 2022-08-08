@@ -35,6 +35,7 @@ billinput.addEventListener('change',()=>{
 
 customTip.addEventListener('change',()=>{
     tip = parseInt(customTip.value);
+    updateResult(allClear());
 })
 
 function updateResult(isClear){
